@@ -272,5 +272,16 @@ We thank the following article and the authors for their open-source codes.
   pages={26057-26066},
   keywords={Training;Limiting;Lighting;Diffusion models;Distortion;Robustness;Pattern recognition;Low-light enhancement;diffusion;zero-reference;low-level vision;image processing},
   doi={10.1109/CVPR52733.2024.02462}}
+
+@INPROCEEDINGS{FCAN,
+  author={Qin, Zequn and Zhang, Pengyi and Wu, Fei and Li, Xi},
+  booktitle={2021 IEEE/CVF International Conference on Computer Vision (ICCV)}, 
+  title={FcaNet: Frequency Channel Attention Networks}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={763-772},
+  keywords={Image segmentation;Computer vision;Codes;Frequency-domain analysis;Computational modeling;Object detection;Computational efficiency;Recognition and classification},
+  doi={10.1109/ICCV48922.2021.00082}}
 ```
 
