@@ -42,7 +42,7 @@ pip install einops gdown addict future lmdb numpy pyyaml requests scipy yapf lpi
 python setup.py develop --no_cuda_ext
 ```
 
-### 2. Prepare Dataset
+### 3. Prepare Dataset
 If `data` is empty，please download the dataset from [Baidu Netdisk](https://pan.baidu.com/s/11M-HE0JTIiIaBN6v-rAkgw?pwd=8ukk) or [Google Drive](https://drive.google.com/drive/folders/1v5v03sDxqWjybB-PwPFuYWE1RFV36G3_?usp=sharing) and place the data file in the DQPGT folder.
 
 **Note:** 
@@ -186,7 +186,7 @@ The final placement should be as follows:
 ```
 
 
-### 3. Testing
+### 4. Testing
 
 Please ensure that the `pretrained_weights` folder contains our pre-trained weights. If your weight files are missing, please download them from [Baidu Netdisk](https://pan.baidu.com/s/1FvDJlTyz8LBXxQZuqS4GYQ?pwd=um55) or [Google Drive](https://drive.google.com/drive/folders/1U9x7LOJo6XiTmMtBkNuCzoeQrGaPSGsG?usp=sharing).
 
@@ -224,7 +224,7 @@ python3 Enhancement/test_from_nomonitor.py --opt Options/QuadPriorFormer_NoMonit
 ### Evaluating the Params and FLOPS of models
 Please run `Enhancement/test_flops_para.py` to test the parameters (Params) and floating-point operations (FLOPS) of DQPGT.
 
-### 4. Training
+### 5. Training
 Please ensure that you have fully completed the environment setup and can correctly infer the parameters and floating points.
 
 ```shell
@@ -248,7 +248,7 @@ python3 basicsr/train.py --opt Options/QuadPriorFormer_SMID.yml
 
 ```
 
-### 5.Acknowledgments
+### 6.Acknowledgments
 
 We thank the following article and the authors for their open-source codes.
 
