@@ -21,7 +21,6 @@ git clone https://github.com/LiuRuisen-star/DQPGT.git
 
 ### 2. Create Environment
 
-#### 2.1 Install the environment with Pytorch 1.11
 
 - Make Conda Environment
 ```
@@ -249,7 +248,7 @@ python3 basicsr/train.py --opt Options/QuadPriorFormer_SMID.yml
 
 ```
 
-### 7.Acknowledgments
+### 5.Acknowledgments
 
 We thank the following article and the authors for their open-source codes.
 
